@@ -1,9 +1,9 @@
 import React, { useReducer } from "react";
 import "./Main.scss";
 import { Route, Routes, useNavigate } from "react-router-dom";
-import Booking from "./Booking";
-import ConfirmedBooking from "./ConfirmedBooking";
-import Header from "./Header";
+import Booking from "../booking/Booking";
+import ConfirmedBooking from "../booking/ConfirmedBooking";
+import Header from "../header/Header";
 
 type State = { availableTimes: string[] };
 

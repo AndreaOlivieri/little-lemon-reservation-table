@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bannerImg from "../images/restauranfood.jpg";
+import bannerImg from "../../images/restauranfood.jpg";
 import "./Header.scss";
 
 const Header: React.FC = () => {

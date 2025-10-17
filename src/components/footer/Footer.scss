@@ -27,3 +27,14 @@ footer ul {
 footer ul li {
   padding: 8px 0;
 }
+
+/* Responsive rules */
+@media screen and (max-width: 768px) {
+  footer section {
+    padding: 10px 8%;
+    flex-direction: column;
+  }
+  .company-info p {
+    width: 100%;
+  }
+}

@@ -51,3 +51,20 @@
   font-size: 16px;
   font-weight: 600;
 }
+
+@media screen and (max-width: 768px) {
+  .header section,
+  .menu-container {
+    padding: 10px 8%;
+  }
+  .menu-container {
+    margin: 20px 0;
+  }
+  .menu-header {
+    justify-content: flex-start;
+  }
+
+  .menu-items {
+    width: 100%;
+  }
+}

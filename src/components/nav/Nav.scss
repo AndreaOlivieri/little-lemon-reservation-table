@@ -53,3 +53,33 @@ nav ul li a:hover {
   align-items: center;
   transition: all 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.visible {
+    display: flex;
+    background: #333333;
+    z-index: 1000;
+    padding: 20px 0;
+  }
+
+  .navbar {
+    background: #fff;
+    padding: 10px 8%;
+  }
+
+  nav ul li a {
+    color: #fff;
+  }
+
+  .bar {
+    background: #333333;
+  }
+}

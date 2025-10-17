@@ -1,4 +1,4 @@
-# Getting Started with Lemon Website
+# Getting Started with Little Lemon Reservation Table
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,5 +1,7 @@
 import React from "react";
 import BookingForm from "./BookingForm";
+import "./Booking.scss";
+import "./BookingForm.scss";
 
 type BookingProps = {
   availableTimes: { availableTimes: string[] };

@@ -1,6 +1,7 @@
 import React from "react";
 import Swal from "sweetalert2";
 import { RECIPES } from "../data/recipes";
+import "./Menu.scss";
 
 const Menu: React.FC = () => {
   const handleOrder = (id: number | string) => {

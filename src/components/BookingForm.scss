@@ -1,0 +1,12 @@
+/* Styles for BookingForm component */
+.booking-form {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.booking-form__row {
+  display: flex;
+  gap: 0.5rem;
+}

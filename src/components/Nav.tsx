@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../images/Logo .svg";
+import "./Nav.scss";
 
 const Nav: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);

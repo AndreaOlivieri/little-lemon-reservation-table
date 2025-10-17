@@ -134,7 +134,7 @@ button {
 }
 
 form,
-.comfirm {
+.confirm {
   padding: 10px 13%;
 }
 
@@ -168,7 +168,7 @@ label {
   border-radius: 4px;
 }
 
-.comfirm span {
+.confirm span {
   color: blue;
 }
 
@@ -290,7 +290,7 @@ footer ul li {
   }
 
   form,
-  .comfirm {
+  .confirm {
     padding: 10px 8%;
   }
 

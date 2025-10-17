@@ -1,5 +1,6 @@
 import React from "react";
 import small_logo from "../images/Logo .svg";
+import "./Footer.scss";
 
 const Footer: React.FC = () => {
   return (

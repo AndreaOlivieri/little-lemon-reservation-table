@@ -1,4 +1,5 @@
 import React, { useReducer } from "react";
+import "./Main.scss";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import Booking from "./Booking";
 import ConfirmedBooking from "./ConfirmedBooking";
